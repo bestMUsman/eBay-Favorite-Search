@@ -2,6 +2,7 @@
   "name": "ebay-fav-search-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://musmanrao1994.github.io/eBay-Favorite-Search",
   "dependencies": {
     "moment": "^2.20.1",
     "npm-run-all": "^4.1.1",
@@ -22,10 +23,13 @@
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "node-less-chokidar": "^0.1.2",
     "react-scripts": "1.0.16"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-less-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-less-chokidar src/ -o src/ --watch --recursive",
     "start-js": "set PORT=3006 && react-scripts start",
@@ -35,5 +39,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001/"
+  "proxy": "https://ebay-favorite-search.onrender.com/"
 }

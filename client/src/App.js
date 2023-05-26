@@ -19,6 +19,8 @@ import {
   transferDataFromLocalStorageToDB
 } from "./actions/ebayAppActions";
 
+const baseURL = `/eBay-Favorite-Search`;
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -81,7 +83,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router >
+      <Router basename={baseURL}>
         <Switch>
           <Route
             path="/Search=:searchBoxValue&listingType=:listingType&sortBy=:sortBy&maxResults=:maxResults&ebayDataAfterOrBefore=:ebayDataAfterOrBefore&listingEndTime=:listingEndTime"
