@@ -5,13 +5,16 @@ const bodyParser = require("body-parser");
 const cors = require('cors');
 const methodOverride = require("method-override");
 const cookieParser = require("cookie-parser");
-const session = require("express-session");
+// const session = require("express-session");
+var session = require('cookie-session');
 const passport = require("passport");
 var http = require('http');
 
 require("dotenv").config();
 
 const app = express();
+app.set('trust proxy', 1);
+
 
 const PORT = process.env.PORT || 3002;
 app.listen(PORT, function () {
