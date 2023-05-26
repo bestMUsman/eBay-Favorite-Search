@@ -19,7 +19,7 @@ import {
   transferDataFromLocalStorageToDB
 } from "./actions/ebayAppActions";
 
-const baseURL = `/eBay-Favorite-Search`;
+const baseURL = `/eBay-Favorite-Search/index.html`;
 
 class App extends Component {
   constructor(props) {
