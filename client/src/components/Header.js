@@ -24,10 +24,10 @@ class Header extends Component {
     }
 
     handleLogOut = () => {
-        fetch('https://ebay-favorite-search.onrender.com/auth/logout', {
+        fetch('/auth/logout', {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
-            credentials: 'same-origin',
+            credentials: 'include',
         })
             .then((response) => {
                 this.props.dispatch(changeUserInfoUsername(null));

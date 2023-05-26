@@ -52,14 +52,14 @@ class App extends Component {
   };
 
   startBackEndServer = () => {
-      fetch('https://ebay-favorite-search.onrender.com/api/test');
+      fetch('/api/test');
   }
 
   updateUserData = () => {
-    fetch('https://ebay-favorite-search.onrender.com/api/user', {
+    fetch('/api/user', {
       method: 'GET',
       headers: { 'Content-Type': 'application/json' },
-      credentials: 'same-origin',
+      credentials: 'include',
     })
       .then((response) => {
         return response.json()

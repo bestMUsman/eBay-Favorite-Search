@@ -34,12 +34,12 @@ class Register extends Component {
 
   handleLoginForm = (e) => {
     e.preventDefault();
-    fetch('https://ebay-favorite-search.onrender.com/auth/login', {
+    fetch('/auth/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       credentials: 'include',
     //   credentials: 'same-origin',
-      body: JSON.stringify({
+    body: JSON.stringify({
         username: e.target.username.value,
         password: e.target.password.value,
       }),

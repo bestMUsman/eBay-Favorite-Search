@@ -37,10 +37,10 @@ export function fetchEbayApiDataFromBackend(searchBoxValue, listingType, maxResu
 
 
 
-        fetch('https://ebay-favorite-search.onrender.com/ebayApi', {
+        fetch('/ebayApi', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            credentials: 'same-origin',
+            credentials: 'include',
             body: JSON.stringify({
                 search: searchBoxValue,
                 maxResults,
@@ -82,10 +82,10 @@ export function transferDataFromLocalStorageToDB(userId) {
 
 export function fetchFavDataFromDatabase(userId) {
     return function (dispatch) {
-        fetch('https://ebay-favorite-search.onrender.com/fav/show', {
+        fetch('/fav/show', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            credentials: 'same-origin',
+            credentials: 'include',
             body: JSON.stringify({
                 user_id: userId,
             }),
@@ -107,10 +107,10 @@ export function change_hasFetchedFavDataFromDB(data) {
 
 export function addFavItemToDB(item, userId) {
     return function (dispatch) {
-        fetch('https://ebay-favorite-search.onrender.com/fav/create', {
+        fetch('/fav/create', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            credentials: 'same-origin',
+            credentials: 'include',
             body: JSON.stringify({
                 item_id: item.item_id,
                 user_id: userId,
@@ -132,10 +132,10 @@ export function addFavItemToDB(item, userId) {
 
 export function deleteFavItemFromDB(item_id, userId) {
     return function (dispatch) {
-        fetch('https://ebay-favorite-search.onrender.com/fav/destroy', {
+        fetch('/fav/destroy', {
             method: 'DELETE',
             headers: { 'Content-Type': 'application/json' },
-            credentials: 'same-origin',
+            credentials: 'include',
             body: JSON.stringify({
                 item_id: item_id,
                 user_id: userId,
