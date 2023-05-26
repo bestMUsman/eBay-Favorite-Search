@@ -34,8 +34,9 @@ class Register extends Component {
 
   handleLoginForm = (e) => {
     e.preventDefault();
-    fetch('/auth/login', {
+    fetch('https://ebay-favorite-search.onrender.com/auth/login', {
       method: 'POST',
+      redirect: 'follow',
       headers: { 'Content-Type': 'application/json' },
       credentials: 'include',
     //   credentials: 'same-origin',
@@ -51,6 +52,11 @@ class Register extends Component {
         if (responseJson.message && responseJson.message === "login failed") {
           this.setState({ authFailed: true });
           this.props.dispatch(playAuthFailedAnimation(this.refs.authFailed, "shake"));
+        
+        } else if(!responseJson || !responseJson.userInfo || !responseJson.userInfo.id) {
+            this.setState({ authFailed: true });
+            this.props.dispatch(playAuthFailedAnimation(this.refs.authFailed, "shake"));
+
         } else {
           this.props.dispatch(changeUserInfoId(responseJson.userInfo.id));
           this.props.dispatch(changeUserInfoUsername(responseJson.userInfo.username));

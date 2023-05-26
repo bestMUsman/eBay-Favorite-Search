@@ -37,7 +37,7 @@ export function fetchEbayApiDataFromBackend(searchBoxValue, listingType, maxResu
 
 
 
-        fetch('/ebayApi', {
+        fetch('https://ebay-favorite-search.onrender.com/ebayApi', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',
@@ -82,7 +82,7 @@ export function transferDataFromLocalStorageToDB(userId) {
 
 export function fetchFavDataFromDatabase(userId) {
     return function (dispatch) {
-        fetch('/fav/show', {
+        fetch('https://ebay-favorite-search.onrender.com/fav/show', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',
@@ -107,7 +107,7 @@ export function change_hasFetchedFavDataFromDB(data) {
 
 export function addFavItemToDB(item, userId) {
     return function (dispatch) {
-        fetch('/fav/create', {
+        fetch('https://ebay-favorite-search.onrender.com/fav/create', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',
@@ -132,7 +132,7 @@ export function addFavItemToDB(item, userId) {
 
 export function deleteFavItemFromDB(item_id, userId) {
     return function (dispatch) {
-        fetch('/fav/destroy', {
+        fetch('https://ebay-favorite-search.onrender.com/fav/destroy', {
             method: 'DELETE',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',

@@ -1,5 +1,6 @@
 const express = require('express');
 const controller = require('../controllers/usersController');
+const usersByCookie = require('../usersByCookie');
 
 const router = express.Router();
 
@@ -7,55 +8,49 @@ const authHelpers = require('../services/auth/authHelpers');
 const passport = require('../services/auth/local');
 
 router.get('/login', (req, res) => {
-  res.json({ message: 'login failed' })
+    console.log(`this is /login`, req.user);
+    res.json({ message: 'login failed' })
 });
 
 router.get('/register', (req, res) => {
-  res.json(res);
+    res.json(res);
 });
 
 router.post('/register', controller.create);
 
-// router.post('/login', function(req, res, next) {
-//     passport.authenticate('local', function(err, user, info) {
-//         console.log(`this is lasssssssst`, err, user, info);
-//       if (err) { return next(err); }
-//       // Redirect if it fails
-//     //   if (!user) { return res.redirect('/auth/login'); }
-//       req.logIn(user, function(err) {
-//         if (err) { return next(err); }
-//         // Redirect if it succeeds
-//         // req.user = user;
-//         req.session.user = user;
-//         req.session.views = 100;
-//         console.log(`req.login user=>>`, user);
-//         console.log(`req.login req.user=>>`, req.user);
-//         // req.session.save(function(err) {
-//         //     return Promise.resolve();
-//         // });
-
-//         res.cookie('access_token', req.ses, { maxAge: 900000, httpOnly: true });
+router.post('/login/', function (req, res, next) {
+    passport.authenticate('local', function (err, user) {
+        if (err) {
+            /* something */
+        }
+        if (user) {
+            req.logIn(user, function (err) {
 
 
-//         // console.log(`from passport req.session.id`, req.session.id, req.session.cookie.maxAge, req.session.views, req.sessionID
-//         // );
-//         return res.redirect('/api/user');
-//       });
-//     })(req, res, next);
-//   });
+                var randomNumber = Math.random().toString();
+                randomNumber = randomNumber.substring(2, randomNumber.length);
+                let options = {
+                    maxAge: 1000 * 60 * 15, // would expire after 15 minutes
+                    secure: true,
+                    secret: "sdfsdf",
+                    sameSite: 'none',
+                    httpOnly: true, // The cookie only accessible by the web server
+                }
 
-router.post(
-  '/login',
-  passport.authenticate('local', {
-    successRedirect: '/api/user',
-    failureRedirect: '/auth/login',
-    failureFlash: false,
-  })
-);
+                usersByCookie[randomNumber] = user;
+                res.cookie('user', randomNumber, options);
+            });
+        }
+
+        res.json({ userInfo: user, state: req.isAuthenticated() });
+    })(req, res, next);
+})
+
 
 router.get('/logout', (req, res) => {
-  req.logout();
-  res.redirect('/');
+    delete usersByCookie[req.cookies.user]
+    req.logout();
+    res.redirect('/');
 });
 
 module.exports = router;

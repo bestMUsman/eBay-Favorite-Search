@@ -27,7 +27,7 @@ class Register extends Component {
 
   handleRegisterForm = (e) => {
     e.preventDefault();
-    fetch('/auth/register', {
+    fetch('https://ebay-favorite-search.onrender.com/auth/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -56,7 +56,7 @@ eBay Favorite Search App allows you to instantly search items from eBay, and add
  - Open another terminal, and navigate to "client" directory
  - Do "npm install" again, to install the react packages³ needed to run the front-end of this app
  - After packages have finished installing then type "npm start" to run the front-end part of this app
- - After the server has started running, then navigate to your browser and go to this address: "http://localhost:3006/"
+ - After the server has started running, then navigate to your browser and go to this address: "https://ebay-favorite-search.onrender.com/"
 
 1) Back-End Dependencies Needed: bcryptjs, body-parser, cookie-parser, cors, dotenv, express, express-session, isomorphic-fetch, method-override, morgan, nodemon, passport, passport-local, path, pg-promise
 
