@@ -1,0 +1,1386 @@
+{
+    "@count": "25",
+    "item": [{
+        "itemId": ["304041042675"],
+        "title": ["Dell i5-6500 Desktop Computer PC up to 16GB RAM 4TB SSD, Windows 10 Pro, WiFi BT"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["💎 1 YEAR WARRANTY 📦 SAME DAY SHIPPING"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/U-MAAOSwP3Njs-2R/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-i5-6500-Desktop-Computer-PC-up-16GB-RAM-4TB-SSD-Windows-10-Pro-WiFi-BT-/304041042675?var="],
+        "autoPay": ["true"],
+        "postalCode": ["840**"],
+        "location": ["Orem,UT,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "177.59"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "177.59"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P20DT5H4M1S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2021-06-21T21:54:45.000Z"],
+            "endTime": ["2023-02-21T22:54:45.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["3"]
+        }],
+        "returnsAccepted": ["true"],
+        "galleryPlusPictureURL": ["https://galleryplus.ebayimg.com/ws/web/304041042675_1_6_1.jpg"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["283571211327"],
+        "title": ["Dell Gaming Desktop Computer PC Tower Core i5 16GB 2TB HD/SSD 22\" LCD Windows 10"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["Build Your Own Gaming PC with a GT 730 Graphics Card!!"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/c8wAAOSwJE5in7RA/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-Gaming-Desktop-Computer-PC-Tower-Core-i5-16GB-2TB-HD-SSD-22-LCD-Windows-10-/283571211327?var="],
+        "autoPay": ["true"],
+        "postalCode": ["757**"],
+        "location": ["Jacksonville,TX,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["2"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "173.83"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "173.83"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P3DT23H36M40S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2019-08-05T16:27:24.000Z"],
+            "endTime": ["2023-02-05T17:27:24.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["33"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/c8wAAOSwJE5in7RA/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/c8wAAOSwJE5in7RA/$_1.JPG"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["304762827171"],
+        "title": ["Dell i7-6700 Desktop Computer PC up to 32GB RAM, 4TB SSD, Windows 11 or 10, WiFi"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["💎 1 YEAR WARRANTY 📦 SAME DAY SHIPPING"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/~UsAAOSwJg1juO75/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-i7-6700-Desktop-Computer-PC-up-32GB-RAM-4TB-SSD-Windows-11-10-WiFi-/304762827171?var="],
+        "autoPay": ["true"],
+        "postalCode": ["840**"],
+        "location": ["Orem,UT,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "199.0"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "199.0"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P5DT10H19M19S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2023-01-07T04:10:03.000Z"],
+            "endTime": ["2023-02-07T04:10:03.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["29"]
+        }],
+        "returnsAccepted": ["true"],
+        "galleryPlusPictureURL": ["https://galleryplus.ebayimg.com/ws/web/304762827171_1_5_1.jpg"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["285068609746"],
+        "title": ["Lenovo Tiny Desktop PC Intel Core i5 7th Gen 16GB 1TB SSD/HD Windows 10 Pro WiFi"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["Customize Your Lenovo Tiny Desktop! Fast Shipping!!"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/lRMAAOSw7vNjkRHX/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Lenovo-Tiny-Desktop-PC-Intel-Core-i5-7th-Gen-16GB-1TB-SSD-HD-Windows-10-Pro-WiFi-/285068609746?var="],
+        "autoPay": ["true"],
+        "postalCode": ["757**"],
+        "location": ["Jacksonville,TX,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["2"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "92.7"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "92.7"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P6DT21H29M4S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2022-12-08T15:19:48.000Z"],
+            "endTime": ["2023-02-08T15:19:48.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["144"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2020"],
+            "conditionDisplayName": ["Very Good - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/lRMAAOSw7vNjkRHX/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/lRMAAOSw7vNjkRHX/$_1.JPG"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["303381356315"],
+        "title": ["HP 8GB 500GB New 22\" LCD Monitor WiFi Windows10 FAST CPU SFF Desktop Computer PC"],
+        "globalId": ["EBAY-US"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/nAcAAOSwFSpgIX1G/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/HP-8GB-500GB-New-22-LCD-Monitor-WiFi-Windows10-FAST-CPU-SFF-Desktop-Computer-PC-/303381356315?var="],
+        "autoPay": ["true"],
+        "postalCode": ["551**"],
+        "location": ["Saint Paul,MN,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "79.99"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "79.99"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P26DT3H12M59S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2019-11-27T21:03:43.000Z"],
+            "endTime": ["2023-02-27T21:03:43.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["25"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2020"],
+            "conditionDisplayName": ["Very Good - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/nAcAAOSwFSpgIX1G/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/nAcAAOSwFSpgIX1G/$_1.JPG"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["304650988673"],
+        "title": ["HP Desktop Computer PC, up to 16GB RAM, 4TB SSD, 22\" LCD, Windows 10 WiFi"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["💎 1 YEAR WARRANTY 📦 SAME DAY SHIPPING"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/zPIAAOSwj1Nj14XI/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/HP-Desktop-Computer-PC-up-16GB-RAM-4TB-SSD-22-LCD-Windows-10-WiFi-/304650988673?var="],
+        "autoPay": ["true"],
+        "postalCode": ["840**"],
+        "location": ["Orem,UT,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "166.38"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "166.38"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P3DT5H1M16S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2022-10-04T21:52:00.000Z"],
+            "endTime": ["2023-02-04T22:52:00.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["33"]
+        }],
+        "returnsAccepted": ["true"],
+        "galleryPlusPictureURL": ["https://galleryplus.ebayimg.com/ws/web/304650988673_1_1_1.jpg"],
+        "condition": [{
+            "conditionId": ["2030"],
+            "conditionDisplayName": ["Good - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["302769907171"],
+        "title": ["Dell i5 Desktop Computer PC up to 16GB RAM, 4TB SSD, Windows 7 or 10, WiFi"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["💎 1 YEAR WARRANTY 📦 SAME DAY SHIPPING"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/pfEAAOSw4N1j14IM/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-i5-Desktop-Computer-PC-up-16GB-RAM-4TB-SSD-Windows-7-10-WiFi-/302769907171?var="],
+        "autoPay": ["true"],
+        "postalCode": ["840**"],
+        "location": ["Orem,UT,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "164.29"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "164.29"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P11DT11H32M24S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2018-06-13T04:23:08.000Z"],
+            "endTime": ["2023-02-13T05:23:08.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"]
+        }],
+        "returnsAccepted": ["true"],
+        "galleryPlusPictureURL": ["https://galleryplus.ebayimg.com/ws/web/302769907171_1_1_1.jpg"],
+        "condition": [{
+            "conditionId": ["2020"],
+            "conditionDisplayName": ["Very Good - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["304029933336"],
+        "title": ["Dell i7-4770 Desktop Computer PC up to 32GB RAM, 4TB SSD, Windows 10 Pro, WiFi"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["💎 1 YEAR WARRANTY 📦 SAME DAY SHIPPING"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/OBUAAOSwpAJj0lBC/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-i7-4770-Desktop-Computer-PC-up-32GB-RAM-4TB-SSD-Windows-10-Pro-WiFi-/304029933336?var="],
+        "autoPay": ["true"],
+        "postalCode": ["840**"],
+        "location": ["Orem,UT,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "169.0"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "169.0"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P10DT14H28M53S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2021-06-12T07:19:37.000Z"],
+            "endTime": ["2023-02-12T08:19:37.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["130"]
+        }],
+        "returnsAccepted": ["true"],
+        "galleryPlusPictureURL": ["https://galleryplus.ebayimg.com/ws/web/304029933336_1_1_1.jpg"],
+        "condition": [{
+            "conditionId": ["2020"],
+            "conditionDisplayName": ["Very Good - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["295019368096"],
+        "title": ["Dell i5 Desktop Computer PC up to 32GB RAM, 4TB SSD, 24\" LCD, Windows 11 or 10"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["💎 1 YEAR WARRANTY 📦 SAME DAY SHIPPING"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/QlcAAOSwbCRjt90J/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-i5-Desktop-Computer-PC-up-32GB-RAM-4TB-SSD-24-LCD-Windows-11-10-/295019368096?var="],
+        "autoPay": ["true"],
+        "postalCode": ["840**"],
+        "location": ["Orem,UT,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "139.0"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "139.0"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P1DT15H2M21S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2022-06-03T07:53:05.000Z"],
+            "endTime": ["2023-02-03T08:53:05.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["70"]
+        }],
+        "returnsAccepted": ["true"],
+        "galleryPlusPictureURL": ["https://galleryplus.ebayimg.com/ws/web/295019368096_1_4_1.jpg"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["144546851404"],
+        "title": ["Dell Computer Desktop i5 PC up to 16GB RAM 3TB SSD HDD Windows 10 Pro WiFi BT"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["Build your PC & 💲ave! 1 Year Warranty 💎 FAST SHIPPING"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/UUAAAOSwRKhjxKbz/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-Computer-Desktop-i5-PC-up-16GB-RAM-3TB-SSD-HDD-Windows-10-Pro-WiFi-BT-/144546851404?var="],
+        "autoPay": ["false"],
+        "postalCode": ["410**"],
+        "location": ["Latonia,KY,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["3"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "154.97"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "154.97"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P8DT8H4M36S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2022-05-10T00:55:20.000Z"],
+            "endTime": ["2023-02-10T01:55:20.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["12"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTYwMFgxMzIw/z/UUAAAOSwRKhjxKbz/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTYwMFgxMzIw/z/UUAAAOSwRKhjxKbz/$_1.JPG"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["293526962748"],
+        "title": ["Dell i5-6500T Mini Computer PC up to 16GB RAM, 2TB SSD, Windows 10, WiFi BT"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["💎 1 YEAR WARRANTY 📦 SAME DAY SHIPPING"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/PUwAAOSwimJjxnAE/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-i5-6500T-Mini-Computer-PC-up-16GB-RAM-2TB-SSD-Windows-10-WiFi-BT-/293526962748?var="],
+        "autoPay": ["true"],
+        "postalCode": ["840**"],
+        "location": ["Orem,UT,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "162.73"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "162.73"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P26DT3H26M33S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2020-03-27T20:17:17.000Z"],
+            "endTime": ["2023-02-27T21:17:17.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["26"]
+        }],
+        "returnsAccepted": ["true"],
+        "galleryPlusPictureURL": ["https://galleryplus.ebayimg.com/ws/web/293526962748_1_4_1.jpg"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["204093980253"],
+        "title": ["Custom Gaming Desktop PC Intel i7 Quad 16 GB SSD + 1TB Nvidia GTX 660 2 GB HDMI"],
+        "globalId": ["EBAY-US"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/DRYAAOSwHU5i-aXn/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Custom-Gaming-Desktop-PC-Intel-i7-Quad-16-GB-SSD-1TB-Nvidia-GTX-660-2-GB-HDMI-/204093980253"],
+        "autoPay": ["true"],
+        "postalCode": ["304**"],
+        "location": ["Portal,GA,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["7"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "422.0"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "422.0"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P14DT10H52M57S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["true"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2022-09-16T03:43:41.000Z"],
+            "endTime": ["2023-02-16T04:43:41.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["1470"]
+        }],
+        "returnsAccepted": ["false"],
+        "condition": [{
+            "conditionId": ["3000"],
+            "conditionDisplayName": ["Used"]
+        }],
+        "isMultiVariationListing": ["false"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["254551973927"],
+        "title": ["Dell OptiPlex Desktop Computer 16GB RAM 2TB HD 512GB SSD Dual 22\" Windows 10 Pro"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["Custom Dell Build! - Fast Shipping! - Great Deal!"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/FYIAAOSwayxjTYZh/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-OptiPlex-Desktop-Computer-16GB-RAM-2TB-HD-512GB-SSD-Dual-22-Windows-10-Pro-/254551973927?var="],
+        "autoPay": ["true"],
+        "postalCode": ["757**"],
+        "location": ["Jacksonville,TX,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["2"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "170.06"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "170.06"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P24DT23H18M21S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2020-03-26T16:09:05.000Z"],
+            "endTime": ["2023-02-26T17:09:05.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["2"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2020"],
+            "conditionDisplayName": ["Very Good - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/FYIAAOSwayxjTYZh/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/FYIAAOSwayxjTYZh/$_1.JPG"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["264610177648"],
+        "title": ["Dell Computer i5 up to 16GB RAM 2TB HD 512GB SSD 22\" LCD's Wi-Fi Windows 10 Pro"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["Customize your Dell i5 3rd gen PC - 1 Year Warranty!"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/Bp4AAOSwiCRij590/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-Computer-i5-up-16GB-RAM-2TB-HD-512GB-SSD-22-LCDs-Wi-Fi-Windows-10-Pro-/264610177648?var="],
+        "autoPay": ["true"],
+        "postalCode": ["757**"],
+        "location": ["Jacksonville,TX,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["2"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "178.2"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "178.2"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P23DT3H34M24S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2020-01-24T21:25:08.000Z"],
+            "endTime": ["2023-02-24T21:25:08.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["2"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Bp4AAOSwiCRij590/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/Bp4AAOSwiCRij590/$_1.JPG"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["155308886201"],
+        "title": ["Lenovo Thinkcentre M710Q USFF Intel Core i5 2.50 GHz 8GB Ram 256GB SSD W10P"],
+        "globalId": ["EBAY-US"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/HiAAAOSwJ9JjmXCV/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Lenovo-Thinkcentre-M710Q-USFF-Intel-Core-i5-2-50-GHz-8GB-Ram-256GB-SSD-W10P-/155308886201"],
+        "autoPay": ["true"],
+        "location": ["USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["1"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "109.99"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "109.99"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P12DT12H52M46S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["true"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2022-12-14T06:43:30.000Z"],
+            "endTime": ["2023-02-14T06:43:30.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["145"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["false"],
+        "discountPriceInfo": [{
+            "originalRetailPrice": [{
+                "@currencyId": "USD",
+                "__value__": "194.99"
+            }],
+            "pricingTreatment": ["STP"],
+            "soldOnEbay": ["false"],
+            "soldOffEbay": ["false"]
+        }],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/HiAAAOSwJ9JjmXCV/$_3.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/HiAAAOSwJ9JjmXCV/$_1.JPG"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["273377869455"],
+        "title": ["Clearance Dell Desktop Computer 16GB RAM 2TB HD 250GB SSD WiFi Windows 10 Pro PC"],
+        "globalId": ["EBAY-US"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/Wz8AAOSwPdljBU0i/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Clearance-Dell-Desktop-Computer-16GB-RAM-2TB-HD-250GB-SSD-WiFi-Windows-10-Pro-PC-/273377869455?var="],
+        "autoPay": ["true"],
+        "postalCode": ["601**"],
+        "location": ["Lombard,IL,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["1"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "175.0"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "175.0"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P27DT4H21M29S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2018-07-28T21:12:13.000Z"],
+            "endTime": ["2023-02-28T22:12:13.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["59"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2020"],
+            "conditionDisplayName": ["Very Good - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["283657922307"],
+        "title": ["HP i5 Desktop Computer G3 16GB RAM 2TB HD 512GB SSD Windows 10 Pro 24\" LCD Wi-Fi"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["Customize Your HP i5 Desktop From The Options Available"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/AiIAAOSwWWZikTG4/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/HP-i5-Desktop-Computer-G3-16GB-RAM-2TB-HD-512GB-SSD-Windows-10-Pro-24-LCD-Wi-Fi-/283657922307?var="],
+        "autoPay": ["true"],
+        "postalCode": ["757**"],
+        "location": ["Jacksonville,TX,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["2"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "182.61"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "182.61"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P27DT0H18M51S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2019-10-29T17:09:35.000Z"],
+            "endTime": ["2023-02-28T18:09:35.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["10"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/AiIAAOSwWWZikTG4/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/AiIAAOSwWWZikTG4/$_1.JPG"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["203677944009"],
+        "title": ["Custom Gaming Desktop PC RGB Tempered Glass Intel i7 Quad 8GB 1TB Nvidia K620 2G"],
+        "globalId": ["EBAY-US"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/U0YAAOSwoFBh-B3P/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Custom-Gaming-Desktop-PC-RGB-Tempered-Glass-Intel-i7-Quad-8GB-1TB-Nvidia-K620-2G-/203677944009"],
+        "autoPay": ["true"],
+        "postalCode": ["304**"],
+        "location": ["Portal,GA,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["7"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "369.0"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "369.0"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P27DT9H56M59S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["true"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2021-10-30T02:47:43.000Z"],
+            "endTime": ["2023-03-01T03:47:43.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["2021"]
+        }],
+        "returnsAccepted": ["false"],
+        "condition": [{
+            "conditionId": ["3000"],
+            "conditionDisplayName": ["Used"]
+        }],
+        "isMultiVariationListing": ["false"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/U0YAAOSwoFBh-B3P/$_3.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/U0YAAOSwoFBh-B3P/$_1.JPG"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["285014932397"],
+        "title": ["Lenovo Desktop Computer Upto Intel i7 32GB RAM 2TB HD 1TB SSD Window 10 Pro WiFi"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["Customize Your Lenovo 7th Gen. Desktop! Fast Shipping!!"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/-RcAAOSwHatjVryh/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Lenovo-Desktop-Computer-Upto-Intel-i7-32GB-RAM-2TB-HD-1TB-SSD-Window-10-Pro-WiFi-/285014932397?var="],
+        "autoPay": ["true"],
+        "postalCode": ["757**"],
+        "location": ["Jacksonville,TX,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["2"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "156.59"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "156.59"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P23DT23H21M25S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2022-10-25T16:12:09.000Z"],
+            "endTime": ["2023-02-25T17:12:09.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["6"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2020"],
+            "conditionDisplayName": ["Very Good - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/-RcAAOSwHatjVryh/$_3.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/-RcAAOSwHatjVryh/$_1.JPG"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["175572126132"],
+        "title": ["Dell OptiPlex 9020 Desktop SFF Core i5 16GB Ram 240SSD Wi-Fi Windows 11 Computer"],
+        "globalId": ["EBAY-US"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/5noAAOSwLdpjs4rt/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-OptiPlex-9020-Desktop-SFF-Core-i5-16GB-Ram-240SSD-Wi-Fi-Windows-11-Computer-/175572126132"],
+        "autoPay": ["true"],
+        "postalCode": ["328**"],
+        "location": ["Orlando,FL,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "159.0"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "159.0"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P12DT1H14M57S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2023-01-13T19:05:41.000Z"],
+            "endTime": ["2023-02-13T19:05:41.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["86"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["3000"],
+            "conditionDisplayName": ["Used"]
+        }],
+        "isMultiVariationListing": ["false"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["295020790427"],
+        "title": ["Lenovo i5-7400T Mini Computer PC up to 32GB RAM, 2TB SSD, Windows 11 or 10, WiFi"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["💎 1 YEAR WARRANTY 📦 SAME DAY SHIPPING"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/rHYAAOSwueNjP8~6/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Lenovo-i5-7400T-Mini-Computer-PC-up-32GB-RAM-2TB-SSD-Windows-11-10-WiFi-/295020790427?var="],
+        "autoPay": ["true"],
+        "postalCode": ["840**"],
+        "location": ["Orem,UT,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "139.0"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "139.0"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P2DT11H3M18S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2022-06-04T03:54:02.000Z"],
+            "endTime": ["2023-02-04T04:54:02.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["21"]
+        }],
+        "returnsAccepted": ["true"],
+        "galleryPlusPictureURL": ["https://galleryplus.ebayimg.com/ws/web/295020790427_1_4_1.jpg"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["334589948244"],
+        "title": ["Dell Quad Core i7 up to 4.2GHz 32GB RAM 3TB HDD 960GB SSD HDMI Desktop Computer"],
+        "globalId": ["EBAY-US"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/eIIAAOSwdTFjRaS3/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-Quad-Core-i7-up-4-2GHz-32GB-RAM-3TB-HDD-960GB-SSD-HDMI-Desktop-Computer-/334589948244?var="],
+        "autoPay": ["true"],
+        "postalCode": ["282**"],
+        "location": ["Charlotte,NC,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["1"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "249.99"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "249.99"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P10DT0H45M27S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2022-10-11T17:36:11.000Z"],
+            "endTime": ["2023-02-11T18:36:11.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["2"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2020"],
+            "conditionDisplayName": ["Very Good - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/eIIAAOSwdTFjRaS3/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/eIIAAOSwdTFjRaS3/$_1.JPG"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["264829069071"],
+        "title": ["Dell Desktop Computer i3 16GB 2TB HD 512GB SSD Dual 22\" Windows 10 Pro PC Wi-Fi"],
+        "globalId": ["EBAY-US"],
+        "subtitle": ["Customize Your Dell SFF! Free One Year Warranty!"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/qaEAAOSwCQpjcqfn/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-Desktop-Computer-i3-16GB-2TB-HD-512GB-SSD-Dual-22-Windows-10-Pro-PC-Wi-Fi-/264829069071?var="],
+        "autoPay": ["true"],
+        "postalCode": ["757**"],
+        "location": ["Jacksonville,TX,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["2"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "161.95"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "161.95"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P12DT3H24M42S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2020-08-13T20:15:26.000Z"],
+            "endTime": ["2023-02-13T21:15:26.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["6"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2010"],
+            "conditionDisplayName": ["Excellent - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/qaEAAOSwCQpjcqfn/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/qaEAAOSwCQpjcqfn/$_1.JPG"],
+        "topRatedListing": ["false"]
+    }, {
+        "itemId": ["303499411190"],
+        "title": ["Dell i5 Quad Core 16GB 2TB 480SSD 22\" 24\"LCD WiFi Windows 10 Desktop Computer PC"],
+        "globalId": ["EBAY-US"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/YyQAAOSwM0VeVYKK/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/Dell-i5-Quad-Core-16GB-2TB-480SSD-22-24-LCD-WiFi-Windows-10-Desktop-Computer-PC-/303499411190?var="],
+        "autoPay": ["true"],
+        "postalCode": ["551**"],
+        "location": ["Saint Paul,MN,USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["true"],
+            "oneDayShippingAvailable": ["true"],
+            "handlingTime": ["0"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "136.99"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "136.99"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P24DT2H55M4S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2020-02-25T20:45:48.000Z"],
+            "endTime": ["2023-02-25T20:45:48.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["2020"],
+            "conditionDisplayName": ["Very Good - Refurbished"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/YyQAAOSwM0VeVYKK/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/YyQAAOSwM0VeVYKK/$_1.JPG"],
+        "topRatedListing": ["true"]
+    }, {
+        "itemId": ["284710642104"],
+        "title": ["New Genesis RGB Gaming PC Desktop Computer Intel i5/i7 8/16GB Ram GTX 1050/1060"],
+        "globalId": ["EBAY-US"],
+        "primaryCategory": [{
+            "categoryId": ["179"],
+            "categoryName": ["PC Desktops & All-In-Ones"]
+        }],
+        "galleryURL": ["https://i.ebayimg.com/thumbs/images/g/HDwAAOSwRVRjDBt4/s-l140.jpg"],
+        "viewItemURL": ["https://www.ebay.com/itm/New-Genesis-RGB-Gaming-PC-Desktop-Computer-Intel-i5-i7-8-16GB-Ram-GTX-1050-1060-/284710642104?var="],
+        "autoPay": ["true"],
+        "location": ["USA"],
+        "country": ["US"],
+        "shippingInfo": [{
+            "shippingServiceCost": [{
+                "@currencyId": "USD",
+                "__value__": "0.0"
+            }],
+            "shippingType": ["Free"],
+            "shipToLocations": ["Worldwide"],
+            "expeditedShipping": ["false"],
+            "oneDayShippingAvailable": ["false"],
+            "handlingTime": ["1"]
+        }],
+        "sellingStatus": [{
+            "currentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "366.59"
+            }],
+            "convertedCurrentPrice": [{
+                "@currencyId": "USD",
+                "__value__": "366.59"
+            }],
+            "sellingState": ["Active"],
+            "timeLeft": ["P17DT7H18M13S"]
+        }],
+        "listingInfo": [{
+            "bestOfferEnabled": ["false"],
+            "buyItNowAvailable": ["false"],
+            "startTime": ["2022-03-19T00:08:57.000Z"],
+            "endTime": ["2023-02-19T01:08:57.000Z"],
+            "listingType": ["FixedPrice"],
+            "gift": ["false"],
+            "watchCount": ["1"]
+        }],
+        "returnsAccepted": ["true"],
+        "condition": [{
+            "conditionId": ["1000"],
+            "conditionDisplayName": ["New"]
+        }],
+        "isMultiVariationListing": ["true"],
+        "pictureURLSuperSize": ["https://i.ebayimg.com/00/s/MTExN1g3OTE=/z/HDwAAOSwRVRjDBt4/$_12.JPG"],
+        "pictureURLLarge": ["https://i.ebayimg.com/00/s/MTExN1g3OTE=/z/HDwAAOSwRVRjDBt4/$_1.JPG"],
+        "topRatedListing": ["false"]
+    }]
+}
