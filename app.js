@@ -12,29 +12,42 @@ require("dotenv").config();
 
 const app = express();
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 app.listen(PORT, function () {
-  console.log(`listening on port: ${PORT}`);
+    console.log(`listening on port: ${PORT}`);
 });
-app.use(cors());
+app.use(cors({
+    origin: function (origin, callback) {
+        // if (whitelist.indexOf(origin) !== -1) {
+        callback(null, true)
+        // } else {
+        //   callback(new Error('Not allowed by CORS'))
+        // }
+    },
+
+    // origin: "*", // (Whatever your frontend url is) 
+    credentials: true, // <= Accept credentials (cookies) sent by the client
+}));
 app.use(logger("dev"));
 app.use(bodyParser.json());
 app.use(
-  bodyParser.urlencoded({
-    extended: false,
-  })
+    bodyParser.urlencoded({
+        extended: false,
+    })
 );
 app.use(methodOverride("_method"));
+app.use(cookieParser());
 app.use(
-  session({
-    secret: process.env.SECRET_KEY,
-    resave: false,
-    saveUninitialized: true,
-  })
+    session({
+        secret: process.env.SECRET_KEY,
+        resave: false,
+        saveUninitialized: true,
+        cookie: { secure: false },
+
+    })
 );
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(cookieParser());
 // app.use(express.static(path.join(__dirname, "client/build")));
 
 // =============== Routes =============== \\
@@ -50,6 +63,11 @@ app.use("/api/user", userRoutes);
 // app.get("/api", function (req, res) {
 //   res.send('working');
 // });
+app.get("/api/test", function (req, res) {
+    res.json({
+        status: 'working',
+    })
+});
 app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "client/build", "index.html"));
+    res.sendFile(path.join(__dirname, "client/build", "index.html"));
 });

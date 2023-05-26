@@ -46,11 +46,17 @@ class App extends Component {
   }
 
   fetch = match => {
-    this.props.dispatch(fetchEbayApiDataFromBackend(match.params.searchBoxValue, match.params.listingType, match.params.maxResults, match.params.ebayDataAfterOrBefore, match.params.listingEndTime, match.params.sortBy));
+    console.log(`match.url =>`, match.url);
+
+    this.props.dispatch(fetchEbayApiDataFromBackend(match.params.searchBoxValue, match.params.listingType, match.params.maxResults, match.params.ebayDataAfterOrBefore, match.params.listingEndTime, match.params.sortBy, match.url));
   };
 
+  startBackEndServer = () => {
+      fetch('https://ebay-favorite-search.onrender.com/api/test');
+  }
+
   updateUserData = () => {
-    fetch('/api/user', {
+    fetch('https://ebay-favorite-search.onrender.com/api/user', {
       method: 'GET',
       headers: { 'Content-Type': 'application/json' },
       credentials: 'same-origin',
@@ -79,6 +85,7 @@ class App extends Component {
 
   componentDidMount() {
     this.updateUserData();
+    this.startBackEndServer();
   }
 
   render() {

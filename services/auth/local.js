@@ -13,6 +13,7 @@ passport.use(
   new LocalStrategy(options, (username, password, done) => {
     User.findByUserName(username)
       .then(user => {
+        console.log(`this is user =>`, user);
         if (!user) {
           return done(null, false);
         }

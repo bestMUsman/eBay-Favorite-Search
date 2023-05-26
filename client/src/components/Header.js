@@ -24,7 +24,7 @@ class Header extends Component {
     }
 
     handleLogOut = () => {
-        fetch('/auth/logout', {
+        fetch('https://ebay-favorite-search.onrender.com/auth/logout', {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'same-origin',
