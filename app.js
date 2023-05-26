@@ -13,15 +13,15 @@ require("dotenv").config();
 
 const app = express();
 
-http.createServer(app).listen(80);
+// http.createServer(app).listen(80);
 
 
 
 
 const PORT = process.env.PORT || 3002;
-// app.listen(PORT, function () {
-//     console.log(`listening on port: ${PORT}`);
-// });
+app.listen(PORT, function () {
+    console.log(`listening on port: ${PORT}`);
+});
 
 
 app.use(cors({
