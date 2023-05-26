@@ -16,14 +16,16 @@ const PORT = process.env.PORT || 3002;
 app.listen(PORT, function () {
     console.log(`listening on port: ${PORT}`);
 });
+
+const whitelist = ["https://musmanrao1994.github.io", "http://localhost:3006"]
 app.use(cors({
     origin: function (origin, callback) {
-        // if (whitelist.indexOf(origin) !== -1) {
-        callback(null, true)
-        // } else {
-        //   callback(new Error('Not allowed by CORS'))
-        // }
-    },
+        if (whitelist.indexOf(origin) !== -1) {
+          callback(null, true)
+        } else {
+          callback(new Error('Not allowed by CORS'))
+        }
+      },
 
     // origin: "*", // (Whatever your frontend url is) 
     credentials: true, // <= Accept credentials (cookies) sent by the client
