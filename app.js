@@ -12,7 +12,7 @@ require("dotenv").config();
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, function () {
   console.log(`listening on port: ${PORT}`);
 });
@@ -35,7 +35,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, "client/build")));
+// app.use(express.static(path.join(__dirname, "client/build")));
 
 // =============== Routes =============== \\
 const favRoutes = require("./routes/favRoutes");
@@ -47,6 +47,9 @@ app.use("/ebayApi", ebayRoutes);
 app.use("/auth", authRoutes);
 app.use("/api/user", userRoutes);
 
+// app.get("/api", function (req, res) {
+//   res.send('working');
+// });
 app.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "client/build", "index.html"));
 });

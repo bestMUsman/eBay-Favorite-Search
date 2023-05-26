@@ -5,7 +5,7 @@ const API_KEY = process.env.EBAY_API_SECRET_KEY;
 function fetchItemsFromEbay(req, res, next) {
   console.log('rendering fetchItemsFromEbay');
 
-  let URL = `http://svcs.ebay.com/services/search/FindingService/v1?`;
+  let URL = `https://svcs.ebay.com/services/search/FindingService/v1?`;
   URL += `OPERATION-NAME=findItemsByKeywords`;
   URL += `&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=${API_KEY}`;
   URL += `&GLOBAL-ID=EBAY-US&RESPONSE-DATA-FORMAT=JSON&REST-PAYLOAD`;
@@ -23,6 +23,7 @@ function fetchItemsFromEbay(req, res, next) {
   }).then((fetchRes) => {
     return fetchRes.json();
   }).then((jsonFetchRes) => {
+    console.log(`jsonFetchRes =>`, jsonFetchRes?.errorMessage);
     if (jsonFetchRes.findItemsByKeywordsResponse[0].ack[0] === "Failure") {
       res.locals.ebayApiData = null;
     } else {
@@ -30,6 +31,7 @@ function fetchItemsFromEbay(req, res, next) {
     }
     next();
   }).catch((err) => {
+    console.log(`error`, err);
     res.locals.ebayApiData = null;
     next();
   });
