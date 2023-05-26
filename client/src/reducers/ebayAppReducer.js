@@ -3,6 +3,7 @@ export default function reducer(
     ebayApiData: [],
     shouldFetch: true,
     fetched: false,
+    isLoading: false,
     userInput: { listingType: "FixedPrice", searchBoxValue: "", sortBy: "Best Match", maxResults: 25, listingEndTime: null, ebayDataAfterOrBefore: "ebay_before" },
     error: null,
     comingFromInput: false,
@@ -20,7 +21,7 @@ export default function reducer(
 ) {
   switch (action.type) {
     case "FETCH_EBAYAPI_REJECTED": {
-      return { ...state, fetched: true, error: action.payload, ebayApiData: [] };
+      return { ...state, fetched: true, error: action.payload, ebayApiData: [], isLoading: false };
     }
 
     case "FETCH_EBAYAPI_FULFILLED": {
@@ -30,6 +31,14 @@ export default function reducer(
         fetched: true,
         ebayApiData: action.payload.ebayApiData,
         comingFromInput: false,
+        isLoading: false,
+      };
+    }
+
+    case "IS_EBAYAPI_LOADING": {
+      return {
+        ...state,
+        isLoading: action.payload,
       };
     }
 
@@ -71,6 +80,7 @@ export default function reducer(
       return {
         ...state,
         fetched: false,
+        isLoading: false,
         userInput: { listingType: "FixedPrice", searchBoxValue: "", sortBy: "Best Match", maxResults: 25, listingEndTime: null, ebayDataAfterOrBefore: "ebay_before" },
         ebayApiData: []
       };

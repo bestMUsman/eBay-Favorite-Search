@@ -31,18 +31,20 @@ class Main extends Component {
   };
 
   shouldComponentUpdate(newProps, nextState) {
-    if (!this.props.dispatch(areTwoArrSame(this.props.ebayAppStore.ebayApiData, newProps.ebayAppStore.ebayApiData)) || (this.props.ebayAppStore.fetched !== newProps.ebayAppStore.fetched) || (this.props.match.path !== newProps.match.path)) {
-      return true;
+    if (!this.props.dispatch(areTwoArrSame(this.props.ebayAppStore.ebayApiData, newProps.ebayAppStore.ebayApiData)) || (this.props.ebayAppStore.fetched !== newProps.ebayAppStore.fetched) || (this.props.match.path !== newProps.match.path) || (this.props.ebayAppStore.isLoading !== newProps.ebayAppStore.isLoading)) {
+        return true;
     } {
       return false;
     }
   }
 
   renderResults = () => {
-    if (this.props.ebayAppStore.fetched) {
+    if (this.props.ebayAppStore.isLoading) {
+      return <h1 className="loading">Loading</h1>
+    } else if (this.props.ebayAppStore.fetched) {
       return <Results />
     } else {
-      return (<h1 className="search-something">Search something!</h1>)
+      return (<h1 className="search-something">Search somethingaa!</h1>)
     }
   }
 

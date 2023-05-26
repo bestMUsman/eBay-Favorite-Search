@@ -20,7 +20,7 @@ class Results extends Component {
       JSON.stringify(this.props.ebayAppStore.favDataFromDB) !== JSON.stringify(newProps.ebayAppStore.favDataFromDB) ||
       !this.props.dispatch(areTwoArrSame(this.props.ebayAppStore.ebayApiData, newProps.ebayAppStore.ebayApiData))
     ) {
-      return true;
+        return true;
     } else {
       return false;
     }
@@ -78,19 +78,14 @@ class Results extends Component {
     }
   };
 
-  renderLoading = () => {
-    return <h1 className="loading">Loading</h1>
-  }
-
   render() {
     return (
       <div className="results">
-        {(!this.props.ebayAppStore.fetched) ? this.renderLoading() : (
           <ul>
             <FlipMove className="flip-move" >
               {this.renderList()}
             </FlipMove>
-          </ul>)}
+          </ul>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Main from "./components/Main";
 import {
-  withRouter, Route, Switch, browserHistory, Redirect, BrowserRouter as Router,
+  withRouter, Route, Switch, browserHistory, Redirect, BrowserRouter as Router, HashRouter,
 } from "react-router-dom";
 import { connect } from "react-redux";
 import {
@@ -16,10 +16,10 @@ import {
   changeUserInfoUsername,
   changeUserInfoEmail,
   fetchFavDataFromDatabase,
-  transferDataFromLocalStorageToDB
+  transferDataFromLocalStorageToDB,
 } from "./actions/ebayAppActions";
 
-const baseURL = `/eBay-Favorite-Search/index.html`;
+const baseURL = `/eBay-Favorite-Search`;
 
 class App extends Component {
   constructor(props) {
@@ -46,8 +46,7 @@ class App extends Component {
   }
 
   fetch = match => {
-    console.log(`match.url =>`, match.url);
-
+    // console.log(`match.url =>`, match.url);
     this.props.dispatch(fetchEbayApiDataFromBackend(match.params.searchBoxValue, match.params.listingType, match.params.maxResults, match.params.ebayDataAfterOrBefore, match.params.listingEndTime, match.params.sortBy, match.url));
   };
 
@@ -90,7 +89,8 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename={baseURL}>
+        <HashRouter>
+      {/* <Router basename={baseURL}> */}
         <Switch>
           <Route
             path="/Search=:searchBoxValue&listingType=:listingType&sortBy=:sortBy&maxResults=:maxResults&ebayDataAfterOrBefore=:ebayDataAfterOrBefore&listingEndTime=:listingEndTime"
@@ -132,7 +132,8 @@ class App extends Component {
 
           <Redirect to="/" />
         </Switch>
-      </Router>
+      {/* </Router> */}
+        </HashRouter>
     );
   }
 }

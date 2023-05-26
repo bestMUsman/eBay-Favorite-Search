@@ -20,6 +20,7 @@ import {
   changeUserInputebayDataAfterOrBefore,
   changeUserInputlistingEndTime,
   changeUrlToUserInput,
+  updateIsEbayApiLoading,
 } from "../actions/ebayAppActions";
 
 class AddInput extends Component {
@@ -77,6 +78,8 @@ class AddInput extends Component {
   }
 
   submitForm = () => {
+    console.log(`submit form`);
+    this.props.dispatch(updateIsEbayApiLoading(true));
     this.props.dispatch(changeShouldFetch(true));
     this.props.dispatch(changeComingFromInput(true));
     this.props.dispatch(fetchEbayApiDataFromBackend(this.refs.searchBox.value, this.props.ebayAppStore.userInput.listingType, this.props.ebayAppStore.userInput.maxResults, this.props.ebayAppStore.userInput.ebayDataAfterOrBefore, this.props.ebayAppStore.userInput.listingEndTime, this.props.ebayAppStore.userInput.sortBy));

@@ -1,3 +1,6 @@
+let requestsArr = [];
+
+
 const mockedDataForInitial = require('./mockedDataForInitial.json');
 
 export function fetchEbayApiDataFromBackend(searchBoxValue, listingType, maxResults, ebayDataAfterOrBefore, listingEndTime, sortBy, matchURL = "") {
@@ -15,13 +18,18 @@ export function fetchEbayApiDataFromBackend(searchBoxValue, listingType, maxResu
     return function (dispatch) {
 
         if (matchURL === "/Search=Computer&listingType=FixedPrice&sortBy=Best Match&maxResults=25&ebayDataAfterOrBefore=ebay_before&listingEndTime=null") {
-            console.log(`it is tru`);
             onSuccess(mockedDataForInitial);
             return;
         };
 
         function onSuccess(responseJson) {
+
+            requestsArr.pop();
+            if (requestsArr.length > 1) return;
             console.log(`responseJson =>`, responseJson);
+
+            // if (requestNumber !== currentRequestNumber) return;
+            // console.log("requestNumber", requestNumber, currentRequestNumber);
             if (responseJson["@count"] == 0) {
                 dispatch({ type: "FETCH_EBAYAPI_REJECTED", payload: null });
             } else {
@@ -37,7 +45,7 @@ export function fetchEbayApiDataFromBackend(searchBoxValue, listingType, maxResu
 
 
 
-        fetch('https://ebay-favorite-search.onrender.com/ebayApi', {
+        let req = fetch('https://ebay-favorite-search.onrender.com/ebayApi', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',
@@ -54,6 +62,8 @@ export function fetchEbayApiDataFromBackend(searchBoxValue, listingType, maxResu
             .catch(err => {
                 dispatch({ type: "FETCH_EBAYAPI_REJECTED", payload: err });
             });
+
+            requestsArr.push(req);
     };
 }
 
@@ -257,6 +267,13 @@ export function updateResults() {
 export function reloadWebsite() {
     return function (dispatch) {
         dispatch({ type: "RESET_THE_SEARCH_DATA", payload: null });
+    };
+}
+
+export function updateIsEbayApiLoading(value) {
+    console.log(`updateIsEbayApiLoading`, value);
+    return function (dispatch) {
+        dispatch({ type: "IS_EBAYAPI_LOADING", payload: value });
     };
 }
 
