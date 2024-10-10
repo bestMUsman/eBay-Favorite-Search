@@ -44,7 +44,7 @@ class Main extends Component {
     } else if (this.props.ebayAppStore.fetched) {
       return <Results />
     } else {
-      return (<h1 className="search-something">Search somethingaa!</h1>)
+      return (<h1 className="search-something">Search something!</h1>)
     }
   }
 
